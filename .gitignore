@@ -1,0 +1,40 @@
+# --- Old versioned files (git history replaces the need for these) ---
+*_v0.py
+*_v1.py
+*_v2.py
+*_v3*.py
+
+# --- Local backups / archives ---
+*.zip
+
+# --- Generated example/output PDFs ---
+EXAMPLE_report*.pdf
+
+# --- Dataset (licensing / privacy - not for the repo) ---
+student_50_percent.csv
+*.csv
+Academic Risk student performance*
+
+# --- One-off debug/utility scripts ---
+find_50_percent_chance_student.py
+
+# --- Results/: keep the folder structure, ignore generated contents ---
+Results/**/*.pkl
+Results/**/*.png
+Results/**/*.csv
+Results/**/*.txt
+!Results/**/.gitkeep
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Python / venv ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# --- OS / editor clutter ---
+.DS_Store
+.vscode/
