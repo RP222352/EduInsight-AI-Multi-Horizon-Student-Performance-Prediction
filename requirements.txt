@@ -1,0 +1,10 @@
+streamlit>=1.30
+pandas
+numpy
+scikit-learn
+shap
+catboost
+matplotlib
+reportlab
+joblib
+openpyxl
