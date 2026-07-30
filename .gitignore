@@ -38,3 +38,4 @@ venv/
 # --- OS / editor clutter ---
 .DS_Store
 .vscode/
+Dataset/*.csv
